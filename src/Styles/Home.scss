@@ -1,0 +1,64 @@
+main{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    .left{
+        width: 20%;
+        height: 90%;
+        margin-right: 2rem;
+        display: flex;
+        flex-direction:column ;
+        justify-content: space-evenly;
+        >h1{
+            font-weight: 600;
+        }
+        >h4{
+            font-weight: 600;
+            color: rgb(47, 41, 41);
+        }
+
+        .circles{
+            width: 100%;
+            height: 30%;
+            position: relative;
+            .circle1{
+             width: 2rem;
+             height: 2rem;
+             background-color: yellow;
+             border-radius: 50%;
+             position: absolute;
+             top: 50%;
+            }
+            .circle2{
+                width: 2.5rem;
+                height: 2.5rem;
+                background-color:#da5359;
+                border-radius: 50%;
+                position: absolute;
+                top: 25%;
+                left: 13%;
+               }
+               .circle3{
+                width: 2.5rem;
+                height: 2.5rem;
+                background-color:#4786c9;
+                border-radius: 50%;
+                position: absolute;
+                top: 43%;
+                left: 30%;
+               }
+        }
+    }
+    .right{
+        width: 40%;
+        height: 90%;
+        background-image: url(../Resources/bg1.avif);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
